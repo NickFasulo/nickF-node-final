@@ -1,0 +1,15 @@
+1. Fixed missing "require('dotenv').config()" in app.js.
+
+2. Added missing "const mongoose = require('mongoose')" in Blog.js model.
+
+3. Put missing const "blogRouter = require('./routes/blog')" parent route in app.js.
+
+4. Fixed type error on "app.use('/', blogRouter)" parent route method in app.js.
+
+5. Added .env file and put in mongodb url.
+
+6. Got rid of unused "const Blog = require('../models/Blog')" Blog model in blog router.
+
+7. Added missing "let newBlog = new Blog()" newBlog variable in create blog function in blog controller.
+
+8. Checked blog routes using postman and all are working!
